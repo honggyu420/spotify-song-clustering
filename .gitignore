@@ -1,0 +1,4 @@
+config.ini
+data/*.csv
+data/*.json
+*.ipynb_checkpoints
