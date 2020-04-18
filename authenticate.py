@@ -6,7 +6,7 @@ import configparser
 config = configparser.ConfigParser()
 config.read('config.ini')
 
-scope = 'user-library-read'
+scope = 'user-library-read user-top-read'
 username = config['SPOTIFY']['username']
 client_id=config['SPOTIFY']['client_id']
 client_secret=config['SPOTIFY']['client_secret']
